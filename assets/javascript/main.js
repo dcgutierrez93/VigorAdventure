@@ -1,3 +1,5 @@
+console.log("WOO");
+
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyCPDq9zGMsYIYATgUKuilErUgrDFOCSPXw",
@@ -14,10 +16,11 @@ var map;
 var infowindow;
 
 function initMap() {
-  var austin = {
-    lat: 30.2849,
-    lng: 97.7341
-  };
+  // var austin = {
+  //   lat: 30.2849,
+  //   lng: 97.7341
+  // };
+  var austin = new google.maps.LatLng(30.2849,97.7341);
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: austin,
@@ -28,7 +31,7 @@ function initMap() {
   var service = new google.maps.places.PlacesService(map);
   service.nearbySearch({
     location: austin,
-    radius: 500,
+    radius: '500',
     type: ['restaurant']
   }, callback);
 }
