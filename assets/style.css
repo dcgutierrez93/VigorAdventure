@@ -1,0 +1,110 @@
+ #section1 {
+background-color: black;
+} 
+material.green-bluegray.min.css
+#header {
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    font-style: oblique;
+    font: bold;
+    font-size: 60px;
+    color: black;
+}
+#subHeader {
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    font-style: oblique;
+    font: bold;
+    font-size: 20px;
+    color: black
+}
+p {
+    font-family: 'Varela', sans-serif;
+    color: black;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+img{
+}
+.section2 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    width: 800px;
+    height: 100px;
+    left: 370px;
+    background-color: white;
+    border:  8px black;
+}
+#dropmenu {
+    text-align: center;
+    width: 180px;
+    
+    font-family: 'Varela', sans-serif;
+}
+.choices {
+    text-align: center;
+}
+.options {
+    
+    color:  black;
+    font-size: 30px;
+    font-family: 'Hammersmith+One', sans-serif;
+}
+#p2-card-1 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#p2-card-2 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#p2-card-3 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#p2-card-4 {
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 650px;
+    
+}
+#instr{
+    position: relative;
+    text-align: center;
+}
